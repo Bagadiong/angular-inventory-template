@@ -1,0 +1,23 @@
+button {
+    width: 100%;
+    padding:3px;
+
+    border-radius:3px;
+    border: 2px solid $primary_theme_color;
+}
+.button{
+    &-primary{
+        background-color: $primary_theme_color;
+        color: $white;
+    }
+
+    &-secondary{
+        background-color: $white;
+        color: $black;
+    }
+}
+
+
+a{
+    text-decoration: none !important;
+}

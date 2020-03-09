@@ -1,0 +1,21 @@
+.dashboard{
+    height: 100%;
+
+    &-primary-text{
+        font-size: $primary_font_size;
+    }
+    &-secondary-text{
+        font-size: $secondary_font_size;
+    }
+    &-tertiary-text{
+        font-size: $tertiary_font_size;
+    }
+    &-row-flex{
+        color: $white;
+        height: 200px;
+    }
+    &-col-flex{
+        background-color: $secondary_theme_color;
+        border: 3px solid $white;
+    }
+}

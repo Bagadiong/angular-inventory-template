@@ -1,0 +1,28 @@
+{
+    "wsadev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-whitesmike-sys-admin-wsadev-214005-authRole",
+            "UnauthRoleArn": "arn:aws:iam::940508673835:role/amplify-whitesmike-sys-admin-wsadev-214005-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::940508673835:role/amplify-whitesmike-sys-admin-wsadev-214005-authRole",
+            "Region": "ap-southeast-1",
+            "DeploymentBucketName": "amplify-whitesmike-sys-admin-wsadev-214005-deployment",
+            "UnauthRoleName": "amplify-whitesmike-sys-admin-wsadev-214005-unauthRole",
+            "StackName": "amplify-whitesmike-sys-admin-wsadev-214005",
+            "StackId": "arn:aws:cloudformation:ap-southeast-1:940508673835:stack/amplify-whitesmike-sys-admin-wsadev-214005/8176bd20-5d54-11ea-9af9-0ad08b3552b8",
+            "AmplifyAppId": "d13vsfnevbz9gi"
+        }
+    },
+    "wsasqt": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-whitesmike-sys-admin-wsasqt-130640-authRole",
+            "UnauthRoleArn": "arn:aws:iam::940508673835:role/amplify-whitesmike-sys-admin-wsasqt-130640-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::940508673835:role/amplify-whitesmike-sys-admin-wsasqt-130640-authRole",
+            "Region": "ap-southeast-1",
+            "DeploymentBucketName": "amplify-whitesmike-sys-admin-wsasqt-130640-deployment",
+            "UnauthRoleName": "amplify-whitesmike-sys-admin-wsasqt-130640-unauthRole",
+            "StackName": "amplify-whitesmike-sys-admin-wsasqt-130640",
+            "StackId": "arn:aws:cloudformation:ap-southeast-1:940508673835:stack/amplify-whitesmike-sys-admin-wsasqt-130640/f0dfafb0-5dd5-11ea-8c60-06ab84d815ba",
+            "AmplifyAppId": "d13vsfnevbz9gi"
+        }
+    }
+}

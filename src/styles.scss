@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+@import "assets/scss/_configs/c_defaults.scss";
+
+@import "assets/scss/app-layout/container.scss";
+@import "assets/scss/app-layout/sidebar.scss";
+@import "assets/scss/app-layout/dashboard.scss";
+
+// utility =====================================================================
+@import "assets/scss/_utility/color.scss";
+@import "assets/scss/_utility/box.scss";
+@import "assets/scss/_utility/util.scss";
+
+// for web =====================================================================
+@import "assets/scss/web/html-tags/buttons.scss";
+@import "assets/scss/web/html-tags/input.scss";
+@import "assets/scss/web/html-tags/select.scss";
+@import "assets/scss/web/html-tags/table.scss";
+
+@import "assets/scss/web/positioning/alignments.scss";
+@import "assets/scss/web/positioning/height.scss";
+@import "assets/scss/web/positioning/width.scss";
+
+
+
+body, html {
+    font-size: $font-size;
+    font-family: 'Muli' !important; // this is imported in index.html
+}

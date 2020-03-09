@@ -1,0 +1,31 @@
+.primary-table{
+    thead{
+        background-color: #ececec;
+        th{
+            padding: 10px;
+            background-color: $tertiary-theme-color;
+            text-align: center;
+
+       
+        }
+    }
+    tbody {
+        tr {
+            background-color: #ececec;
+            text-align: center;
+
+            td {
+                padding: 10px;
+
+                a.view-profile {
+                    color: #000;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    &-select{
+        width: 200px;
+    }
+
+}

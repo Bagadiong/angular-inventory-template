@@ -1,0 +1,45 @@
+.container{
+    &-main{
+        width: 100%;
+        margin-left: $sidebar_width-web;
+    }
+
+    &-sidebar{
+        width: $sidebar_width-web;
+        max-width: $sidebar_width-web;
+        min-width: $sidebar_width-web;
+
+        height: 100vh;
+        position: fixed;
+    }
+}
+
+.header{
+    &-container{
+        font-size: $title_font_size;
+        padding-bottom: 2em;
+        font-weight: 700;    
+    }
+}
+
+.body{
+    &-container {
+        background-color: $white;
+        font-size: $secondary_font_size;
+    }
+}
+
+
+@media only screen and (max-width:900px){
+    .container{
+        &-main{
+            margin-left: $sidebar_width-tab;
+        }
+    
+        &-sidebar{
+            width: $sidebar_width-tab;
+            max-width: $sidebar_width-tab;
+            min-width: $sidebar_width-tab;
+        }
+    }
+}

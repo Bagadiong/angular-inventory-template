@@ -1,0 +1,13 @@
+
+background: bg-color bg-image position/bg-size bg-repeat bg-origin bg-clip bg-attachment initial|inherit;
+{
+    background-color : color|transparent|initial|inherit;
+    background-image : url|none|initial|inherit;
+    background-position : value;
+    background-size: auto|length|cover|contain|initial|inherit;
+    background-repeat: repeat|repeat-x|repeat-y|no-repeat|initial|inherit;
+    background-origin: padding-box|border-box|content-box|initial|inherit;
+    background-clip : border-box|padding-box|content-box|initial|inherit;
+    background-attachment : scroll|fixed|local|initial|inherit;
+}
+

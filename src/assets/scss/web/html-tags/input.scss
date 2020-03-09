@@ -1,0 +1,22 @@
+input {
+    width: 100%;
+    padding: 3px;
+    background-color: $white;
+    font-size: 1em !important;
+}
+
+.input{
+    &-primary{
+        border: solid 2px $primary_theme_color;
+        &-error{
+            border: solid 2px $red;  
+        }
+    }
+    &-secondary{
+        border: solid 1px $primary_theme_color;
+        &-error{
+            border: solid 1px $red;  
+    }
+    }
+}
+

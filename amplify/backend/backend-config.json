@@ -1,0 +1,10 @@
+{
+	"auth": {
+		"whitesmikesysadmind95119a6": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false
+		}
+	}
+}

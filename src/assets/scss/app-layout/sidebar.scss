@@ -1,0 +1,52 @@
+.sidebar {
+    height: 100%; // DEFAULT DO NOT CHANGE
+    width: 100%; // DEFAULT DO NOT CHANGE
+
+    background-color: $primary_theme_color; 
+    color: $primary_font_color;
+
+    .title-container{
+        height: 100px;
+        span{
+            font-size: $font_size_title;
+            margin-left: 10px;
+        }
+    }
+
+    .nav-container{
+        align-items: center;
+        justify-content: flex-start;
+        display: flex;
+
+        padding-left: 2.5em;
+        span{
+            margin-left: 10px;
+        }
+    }
+    &-button{
+        cursor: pointer;
+        outline: none;
+    }
+    &-button:hover, .active{
+        background-color: $sb_background_color_btn;
+        color: $sb_color_btn;
+    }
+}
+
+
+@media only screen and (max-width:900px){
+    .title-container{
+        span{
+            display: none;
+        }
+    }
+
+    .nav-container{
+        padding: unset !important;
+
+        justify-content: center !important;
+        span{
+            display: none;
+        }
+    }
+}
